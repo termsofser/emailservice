@@ -41,7 +41,7 @@ spec:
               - all
           privileged: false
           readOnlyRootFilesystem: true
-        image: gcr.io/ordinal-torch-377801/emailservice
+        image: gcr.io/ordinal-torch-377801/emailservice:v1
         ports:
         - containerPort: 8080
         env:
